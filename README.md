@@ -30,7 +30,7 @@ Copy env file and add database url
 cp .env-sample .env
 ```
 
-## TODO
+### TODO
 
 - [ ] Login and register
 - [ ] Add jwt auth
