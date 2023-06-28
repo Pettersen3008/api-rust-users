@@ -29,3 +29,10 @@ Copy env file and add database url
 ```bash
 cp .env-sample .env
 ```
+
+## TODO
+
+- [ ] Login and register
+- [ ] Add jwt auth
+- [ ] Add refresh token
+- [ ] Add tests
