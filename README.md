@@ -2,6 +2,8 @@
 
 ## Installation
 
+Install postgres
+
 ```bash
 # Macos
 brew install postgres
@@ -10,18 +12,20 @@ brew install postgres
 sudo apt-get install postgresql postgresql-contrib
 ```
 
+Run database in docker
+
 ```bash
 docker-compose up -d
 ```
+
+Install diesel_cli
 
 ```bash
 cargo install diesel_cli --no-default-features --features "postgres"
 ```
 
-```bash
-cp .env-sample .env
-```
+Copy env file and add database url
 
 ```bash
-cargo add dotenv
+cp .env-sample .env
 ```
